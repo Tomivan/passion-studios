@@ -1,15 +1,18 @@
-.nav-heading{
-    display: flex;
-}
 .bx--side-nav__item{
     margin-top: 10%;
 }
+ul{
+    list-style-type: none;
+}
 a.bx--side-nav__link[aria-current='page']{
-    background-color: #fff;
+    background-color: #f56366;
 }
 .bx--side-nav__navigation{
     z-index: 0;
-    background: #e5e5e5;
+    border-right: 1px solid #000000;
+    width: 20%;
+    height: 97vh;
+    padding: 0.5em;
 }
 .bx--side-nav__link{
     margin-bottom: 5%;
