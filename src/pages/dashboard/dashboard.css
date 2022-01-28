@@ -1,0 +1,30 @@
+.dashboard, .dashboard-top, .dashboard-bottom{
+    display: flex;
+}
+.dashboard-section {
+    margin-left: 3%;
+}
+.card {
+    height: 20vh;
+    width: 20vw;
+    border-radius: 5px;
+    box-shadow: rgba(161, 82, 82, 0.1) 10px 5px 5px 10px;
+    margin-right: 5%;
+}
+.lower-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    height: 25vh;
+    width: 15vw;
+    padding: 0.7em;
+    border-radius: 5px;
+    box-shadow: rgba(161, 82, 82, 0.1) 10px 5px 5px 10px;
+    margin-right: 3%;
+    font-size: 12px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}

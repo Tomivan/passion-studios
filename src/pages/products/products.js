@@ -1,10 +1,13 @@
 import React from "react";
 import Trash from '../../assets/images/trash.png';
+import Sidenav from "../../components/sidenav/sidenav";
 import "./products.css";
 
 const Products = () => {
     return(
         <div className="products">
+            <Sidenav />
+            <div className="products-section">
             <h1>Products</h1>
             <div className="product-top">
                 <input type="text" placeholder="Seacrh" />
@@ -74,6 +77,7 @@ const Products = () => {
                     </tr>
                 </tbody>
             </table>
+            </div>
         </div>
     )
 }
