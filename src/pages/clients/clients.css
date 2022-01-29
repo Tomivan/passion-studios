@@ -1,0 +1,26 @@
+.clients{
+    display: flex;
+}
+.clients-section {
+    margin-left: 3%;
+    width: 80%;
+}
+.clients-top{
+    justify-content: space-between;
+}
+.clients-top input{
+    height: 5vh;
+    width: 20vw;
+    background: #eee;
+    border: none;
+    border-radius: 8px;
+}
+
+.clients-top button{
+    background: #f36566;
+    color: #ffffff;
+    height: 5vh;
+    width: 8vw;
+    border: none;
+    border-radius: 8px;
+}

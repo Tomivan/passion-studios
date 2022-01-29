@@ -1,0 +1,8 @@
+.profile{
+    display: flex;
+}
+.profile-section {
+    margin-left: 3%;
+    width: 80%;
+    justify-content: space-between;
+}

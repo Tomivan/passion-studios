@@ -10,7 +10,7 @@ const Orders = () => {
             <Sidenav />
             <div className="orders-section">
             <h1>Orders</h1>
-            <div className="order-top">
+            <div className="orders-top">
                 <input type="text" placeholder="Seacrh" />
                 <button className="product-add">Export</button>
             </div>
