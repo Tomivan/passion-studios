@@ -1,11 +1,5 @@
 import React from 'react'
-import Dashboard from '../../assets/images/dashboard.png';
-import Clipboard from '../../assets/images/clipboard.png';
-import Clients from '../../assets/images/clients.png';
-import Invoice from '../../assets/images/invoice.png';
-import Product from '../../assets/images/product.png';
-import Profile from '../../assets/images/profile.png';
-import Setting from '../../assets/images/setting.png';
+import { Dashboard32, Result32, Events32, Package32, Receipt32, User32, Settings32  } from '@carbon/icons-react';
 
 import { Container, Spacer, NavWrapper, NavButton, NavLink } from './style'
 
@@ -17,7 +11,7 @@ const MobileNav = () => {
         <NavLink to="/dashboard">
           <NavButton
             hasIconOnly
-            renderIcon={Dashboard}
+            renderIcon={Dashboard32}
             iconDescription="Dashboard"
             tooltipPosition="bottom"
           />
@@ -25,7 +19,7 @@ const MobileNav = () => {
         <NavLink to="/orders">
           <NavButton
             hasIconOnly
-            renderIcon={Clipboard}
+            renderIcon={Result32}
             iconDescription="Order"
             tooltipPosition="bottom"
           />
@@ -33,7 +27,7 @@ const MobileNav = () => {
         <NavLink to="/clients">
           <NavButton
             hasIconOnly
-            renderIcon={Clients}
+            renderIcon={Events32}
             iconDescription="Clients"
             tooltipPosition="bottom"
           />
@@ -41,7 +35,7 @@ const MobileNav = () => {
         <NavLink to="/products">
           <NavButton
             hasIconOnly
-            renderIcon={Product}
+            renderIcon={Package32}
             iconDescription="Products"
             tooltipPosition="bottom"
           />
@@ -49,7 +43,7 @@ const MobileNav = () => {
         <NavLink to="/invoice">
           <NavButton
             hasIconOnly
-            renderIcon={Invoice}
+            renderIcon={Receipt32}
             iconDescription="Invoice"
             tooltipPosition="bottom"
           />
@@ -57,7 +51,7 @@ const MobileNav = () => {
         <NavLink to="/profile">
           <NavButton
             hasIconOnly
-            renderIcon={Profile}
+            renderIcon={User32}
             iconDescription="profile"
             tooltipPosition="bottom"
           />
@@ -65,7 +59,7 @@ const MobileNav = () => {
         <NavLink to="/setting">
           <NavButton
             hasIconOnly
-            renderIcon={Setting}
+            renderIcon={Settings32}
             iconDescription="Setting"
             tooltipPosition="bottom"
           />

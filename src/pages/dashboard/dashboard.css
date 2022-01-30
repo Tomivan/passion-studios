@@ -4,6 +4,9 @@
 .dashboard-section {
     margin-left: 3%;
 }
+h1, h2{
+    text-align: left;
+}
 .card {
     height: 20vh;
     width: 20vw;
@@ -11,13 +14,16 @@
     box-shadow: rgba(161, 82, 82, 0.1) 10px 5px 5px 10px;
     margin-right: 5%;
 }
+.bell{
+    height: 3vh;
+    margin-right: 1%;
+}
 .lower-card {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
     height: 25vh;
-    width: 15vw;
+    width: 20vw;
     padding: 0.7em;
     border-radius: 5px;
     box-shadow: rgba(161, 82, 82, 0.1) 10px 5px 5px 10px;

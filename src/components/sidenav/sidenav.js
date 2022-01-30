@@ -17,13 +17,13 @@ const Sidenav = () => {
                <h1>Passion Studio</h1>
            </div>
            <SideNavItems>
-            <SideNavMenuItem><img src={Dashboard} alt="Dashboard icon" className="nav-icon"/>Dashboard</SideNavMenuItem>
-            <SideNavMenuItem ><img src={Clipboard} alt="Balance icon" className="nav-icon"/>Orders</SideNavMenuItem>
-            <SideNavMenuItem><img src={Clients} alt="Customers icon" className="nav-icon"/>Clients</SideNavMenuItem>
-            <SideNavMenuItem><img src={Product} alt="Analytics icon" className="nav-icon"/>Products</SideNavMenuItem>
-            <SideNavMenuItem><img src={Invoice} alt="Settings" className="nav-icon"/>Invoice</SideNavMenuItem>
-            <SideNavMenuItem><img src={Profile} alt="Team icon" className="nav-icon"/>Profile</SideNavMenuItem>
-            <SideNavMenuItem><img src={Setting} alt="Contact icon" className="nav-icon"/>Settings</SideNavMenuItem>
+            <SideNavMenuItem href="/dashboard"><img src={Dashboard} alt="Dashboard icon" className="nav-icon"/>Dashboard</SideNavMenuItem>
+            <SideNavMenuItem href="/orders"><img src={Clipboard} alt="Balance icon" className="nav-icon"/>Orders</SideNavMenuItem>
+            <SideNavMenuItem href="/clients"><img src={Clients} alt="Customers icon" className="nav-icon"/>Clients</SideNavMenuItem>
+            <SideNavMenuItem href="/products"><img src={Product} alt="Analytics icon" className="nav-icon"/>Products</SideNavMenuItem>
+            <SideNavMenuItem href="/invoice"><img src={Invoice} alt="Settings" className="nav-icon"/>Invoice</SideNavMenuItem>
+            <SideNavMenuItem href="/profile"><img src={Profile} alt="Team icon" className="nav-icon"/>Profile</SideNavMenuItem>
+            <SideNavMenuItem href="/settings"><img src={Setting} alt="Contact icon" className="nav-icon"/>Settings</SideNavMenuItem>
         </SideNavItems>
         </StyledSideNav>
     );

@@ -22,3 +22,14 @@
     border: none;
     border-radius: 8px;
 }
+table{
+    width: 95%;
+    margin-top: 5%;
+}
+th{
+    background: #eee;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+  }
