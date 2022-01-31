@@ -3,10 +3,8 @@ import { SideNavItems, SideNavMenuItem } from 'carbon-components-react/lib/compo
 import Dashboard from '../../assets/images/dashboard.png';
 import Clipboard from '../../assets/images/clipboard.png';
 import Clients from '../../assets/images/clients.png';
-import Invoice from '../../assets/images/invoice.png';
 import Product from '../../assets/images/product.png';
 import Profile from '../../assets/images/profile.png';
-import Setting from '../../assets/images/setting.png';
 import './sidenav.css';
 import { StyledSideNav } from './style';
 
@@ -21,9 +19,7 @@ const Sidenav = () => {
             <SideNavMenuItem href="/orders"><img src={Clipboard} alt="Balance icon" className="nav-icon"/>Orders</SideNavMenuItem>
             <SideNavMenuItem href="/clients"><img src={Clients} alt="Customers icon" className="nav-icon"/>Clients</SideNavMenuItem>
             <SideNavMenuItem href="/products"><img src={Product} alt="Analytics icon" className="nav-icon"/>Products</SideNavMenuItem>
-            <SideNavMenuItem href="/invoice"><img src={Invoice} alt="Settings" className="nav-icon"/>Invoice</SideNavMenuItem>
             <SideNavMenuItem href="/profile"><img src={Profile} alt="Team icon" className="nav-icon"/>Profile</SideNavMenuItem>
-            <SideNavMenuItem href="/settings"><img src={Setting} alt="Contact icon" className="nav-icon"/>Settings</SideNavMenuItem>
         </SideNavItems>
         </StyledSideNav>
     );

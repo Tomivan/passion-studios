@@ -1,5 +1,5 @@
 import React from "react";
-import Sidenav from "../../components/sidenav/sidenav";
+import Layout from "../../components/layout/layout";
 import Trash from "../../assets/images/trash.png";
 import Pencil from "../../assets/images/pencil.png";
 import "./clients.css";
@@ -7,7 +7,7 @@ import "./clients.css";
 const Clients = () => {
     return(
         <div className="clients">
-             <Sidenav />
+             <Layout />
             <div className="clients-section">
             <h1>Clients</h1>
             <div className="clients-top">

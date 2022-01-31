@@ -1,12 +1,12 @@
 import React from "react";
 import Trash from '../../assets/images/trash.png';
-import Sidenav from "../../components/sidenav/sidenav";
+import Layout from "../../components/layout/layout";
 import "./products.css";
 
 const Products = () => {
     return(
         <div className="products">
-            <Sidenav />
+            <Layout />
             <div className="products-section">
             <h1>Products</h1>
             <div className="product-top">

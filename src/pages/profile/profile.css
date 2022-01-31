@@ -3,6 +3,51 @@
 }
 .profile-section {
     margin-left: 3%;
-    width: 80%;
-    justify-content: space-between;
+}
+.user{
+    display: flex;
+    text-align: left;
+}
+.user img{
+    width: 10vw;
+    padding-right: 0.5em;
+}
+.picture-link{
+    color: #f56366;
+    margin-left: 2%;
+}
+.user-links{
+    width: 100%;
+}
+.form-section{
+    display: flex;
+    margin-top: 5%;
+    margin-left: -10%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 28%;
+}
+.form input{
+    background: #eee;
+    border: none;
+    border-radius: 8px;
+    height: 4vh;
+    width: 20vw;
+}
+.form label{
+    text-align: left;
+}
+.change-password{
+    margin-left: 10%;
+}
+.basic-info-button, .change-password-button{
+    background: #f56366;
+    color: #ffffff;
+    height: 5vh;
+    width: 20vw;
+    margin-top: 5%;
+    border-radius: 8px;
+    border: none;
 }

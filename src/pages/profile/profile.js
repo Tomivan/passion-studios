@@ -1,27 +1,29 @@
 import React from "react";
-import Sidenav from "../../components/sidenav/sidenav";
+import Layout from "../../components/layout/layout";
+import User from "../../assets/images/user.png";
 import { Link } from "@reach/router";
 import "./profile.css";
 
 const Profile = () => {
     return(
         <div className="profile">
-            <Sidenav />
+            <Layout />
             <div className="profile-section">
-                <h1>Profile</h1>
+                <h1>Profile</h1> 
                 <div className="user">
-                    <img src="" alt="user" className="user-image" />
+                    <img src={User} alt="user" className="user-image" />
                     <div className="user-info">
                         <p>Upload a picture...</p>
                         <p>Et suspendisse turpis sed mauris vitae eros.<br/> 
                         Scelerisque neque elit egestas nec metus a. </p>
                         <div className="user-links">
-                            <Link to="">Upload a picture</Link>
-                            <Link to="">Take a picture</Link>
-                            <Link to="">Remove a picture</Link>
+                            <Link to="" className="picture-link">Upload a picture</Link>
+                            <Link to="" className="picture-link">Take a picture</Link>
+                            <Link to="" className="picture-link">Remove photo</Link>
                         </div>
                     </div>
                 </div>
+                <div className="form-section">
                 <div className="basic-information">
                     <p>Basic Information</p>
                     <form className="form">
@@ -51,6 +53,7 @@ const Profile = () => {
                         <input type="password" />
                         <button className="change-password-button">Change Password</button>
                     </form>
+                </div>
                 </div>
             </div>
         </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import Trash from "../../assets/images/trash.png";
 import Pencil from '../../assets/images/pencil.png';
-import Sidenav from "../../components/sidenav/sidenav";
+import Layout from "../../components/layout/layout";
 import "./orders.css";
 
 const Orders = () => {
     return(
         <div className="orders">
-            <Sidenav />
+            <Layout />
             <div className="orders-section">
             <h1>Orders</h1>
             <div className="orders-top">

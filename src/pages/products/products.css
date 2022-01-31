@@ -7,6 +7,7 @@
 }
 .product-top{
     display: flex;
+    justify-content: space-between;
 }
 .product-top input{
     height: 5vh;

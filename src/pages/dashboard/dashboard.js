@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../../components/layout/layout";
-// import Sidenav from "../../components/sidenav/sidenav";
 import Bell from "../../assets/images/bell.png";
 import "./dashboard.css";
 

@@ -6,6 +6,7 @@
     width: 80%;
 }
 .clients-top{
+    display: flex;
     justify-content: space-between;
 }
 .clients-top input{
