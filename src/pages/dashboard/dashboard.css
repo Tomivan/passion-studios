@@ -34,3 +34,24 @@ h1, h2{
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 768px) {
+    .dashboard-top, .dashboard-bottom{
+        flex-direction: column;
+    }
+    .card, .lower-card{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .orders-top input, .clients-top input,
+    .products-top input{
+        width: 40vw;
+    }
+    .product-add{
+        width: 20vw;
+    }
+    table{
+        overflow-x: auto;
+    }
+}
