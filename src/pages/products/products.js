@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState} from "react";
+import Modal from "react-modal";
+import AddProducts from "./add-products/add-products";
 import Trash from '../../assets/images/trash.png';
 import Layout from "../../components/layout/layout";
 import "./products.css";
 
 const Products = () => {
+    const [modalIsOpen, setModalIsOpen] = useState(false);
     return(
         <div className="products">
             <Layout />
@@ -12,7 +15,10 @@ const Products = () => {
             <div className="product-top">
                 <input type="text" placeholder="Seacrh" />
                 <div className="product-buttons">
-                    <button className="product-add">Add</button>
+                <button className="product-add" onClick={() => setModalIsOpen(true)}>Add</button>
+                <Modal className="bg-modal" isOpen={modalIsOpen}>
+                    <AddProducts />
+                </Modal>
                     <button className="product-export">Export</button>
                     <button className="product-bulk">Bulk Upload</button>
                 </div>

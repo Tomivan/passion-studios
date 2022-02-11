@@ -1,9 +1,12 @@
 import React from 'react';
-import { Link } from '@reach/router';
+import { Link, navigate } from '@reach/router';
 import Liz from '../../assets/images/liz.jpg';
 import './login.css';
 
 const Login = () => {
+     const login = () => {
+        navigate('/dashboard');
+        }
     return(
         <div className='login'>
             <div className='login-left'>
@@ -14,7 +17,7 @@ const Login = () => {
                 <p><strong>Login</strong></p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                     ut labore et dolore magna aliqua.</p>
-                <form className='login-form'>
+                <form className='login-form' onSubmit={login}>
                     <label>Username</label>
                     <input type="text" />
                     <label>Password</label>

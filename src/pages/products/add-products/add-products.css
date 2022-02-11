@@ -1,0 +1,28 @@
+.add-product-form{
+    width: 30vw;
+    height: 35vh;
+    margin-left: 35%;
+    margin-top: 15%;
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 10px;
+}
+.add-product-form input{
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    border: none;
+    border-radius: 8px;
+    height: 4vh;
+    width: 30vw;
+}
+
+.flex-input{
+    display: flex;
+}
+.flex-input input{
+    width: 14vw;
+}
+.right-input{
+    margin-left: 6%;
+}

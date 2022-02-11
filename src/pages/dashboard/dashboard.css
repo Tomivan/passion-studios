@@ -40,18 +40,19 @@ h1, h2{
         flex-direction: column;
     }
     .card, .lower-card{
-        width: 90%;
+        width: 82vw;
         margin-left: 5%;
-        margin-top: 3%;
+        margin-top: 5%;
     }
     .orders-top input, .clients-top input,
     .products-top input{
         width: 40vw;
     }
-    .product-add{
+    .orders-top button, .clients-top button{
         width: 20vw;
     }
-    table{
-        overflow-x: auto;
+    .table{
+        position: absolute;
+        overflow-x: scroll;
     }
 }
