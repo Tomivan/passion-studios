@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "react-modal";
+import AddClients from "./add-clients/add-clients"
 import Layout from "../../components/layout/layout";
 import Trash from "../../assets/images/trash.png";
 import Pencil from "../../assets/images/pencil.png";
 import "./clients.css";
 
 const Clients = () => {
+    const [modalIsOpen, setModalIsOpen] = useState(false);
     return(
         <div className="clients">
              <Layout />
@@ -12,7 +15,10 @@ const Clients = () => {
             <h1>Clients</h1>
             <div className="clients-top">
                 <input type="text" placeholder="Seacrh" />
-                <button className="product-add">Add</button>
+                <button className="product-add" onClick={() => setModalIsOpen(true)}>Add</button>
+                <Modal className="bg-modal" isOpen={modalIsOpen}>
+                    <AddClients />
+                </Modal>
             </div>
             <table className="table">
                 <thead>

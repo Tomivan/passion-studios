@@ -1,0 +1,19 @@
+.add-client-form{
+    width: 30vw;
+    height: 35vh;
+    margin-left: 35%;
+    margin-top: 15%;
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 10px;
+}
+.add-client-form input{
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    border: none;
+    border-radius: 8px;
+    height: 4vh;
+    width: 30vw;
+    margin-bottom: 2%;
+}
